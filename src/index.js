@@ -150,7 +150,7 @@ class StickGame {
      * @param {Number} nstick 
      * @param {Array<Number>} actions 
      */
-    constructor(player1, player2, startPlayer = 0, size = 12, actions = [ 1, 2, 3 ]) {
+    constructor(player1, player2, startPlayer = 0, size = 24, actions = [ 1, 2, 3 ]) {
         this.player1 = player1;
         this.player2 = player2;
         this.size = size;
@@ -268,7 +268,7 @@ function main() {
 
     while(true) {
         playerAI.resetStats();
-        game.restart(1);
+        game.restart(0);
 
         while(!game.isFinished()) {
             game.display();
