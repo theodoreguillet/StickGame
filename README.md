@@ -9,3 +9,5 @@ This project use javascript es6 with nodejs
 npm install
 npm run start
 ```
+## Live demo :
+https://watchtux.github.io/StickGame/
